@@ -50,7 +50,7 @@ source venv/bin/activate   # Linux / Raspberry Pi
   ```
   Windows (CMD or PowerShell):
   ```
-python -m venv venv
+python.exe -m venv venv
 venv\Scripts\activate
   ```
   If PowerShell blocks execution, run: ```Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser```
