@@ -1,0 +1,44 @@
+call: "EA4ABC"
+
+run_as_service: false
+tick_hz: 2
+
+lang: "en"              # en: English | es: Spanish
+
+monitor: true           # true: Sniffer mode. false: just receive ALL or your Callsign
+
+bbs: true               # true or folder path Ex: "/home/pi/meshfest/bbs" | false
+
+vara:
+  host: "127.0.0.1"     # VARA HF/FM host address
+  port: 8100            # VARA HF/FM port
+  axdst: "APVARA"       # name for your host
+  
+mesh:
+  serial: null                   # com3 or serial path
+  host: "192.168.1.25:4403"      # If is TCP/IP connection IP:Port (Meshtastic default 4403)
+  dest_id: null                  # !abcdef Meshtastic ID 
+  channel_index: null            # Meshtastic Channel Index; 0 | 1 | 2 ...
+  channel_name: "Friends"        # Meshtastic Channel Name
+  want_ack: true
+  
+bridge:
+  enable_mesh: true
+  vara_to_mesh_prefix: "VARA HF"
+  mesh_to_vara_prefix: "MESHTASTIC"
+  mesh_to_vara_dest: "EA1XYZ"
+  mesh_rx_channel: "Friends"
+
+firewall:
+  # DMs
+  allow_from_vara_to_node: ["QXT6"] # Allowed from VARA to Mesh Node
+  allow_from_mesh_via_vara_to_node: ["AND3", "LOL4", "22B8"] # Allowed Mesh destination from Mesh nodes to relay to another Mesh node via VARA
+  # Channels
+  mesh_channel_allow_src: ["ABC6"] # Allowed Mesh Node from CHANNEL to VARA
+  mesh_channel_allow_from: ["ABC3", "K1ABC", "DL2HY","22B8"] # # Allowed Source from VARA to Mesh CHANNEL
+
+logging:
+  verbose: 1            # 0: Service | 1: Normal |  2: Debug
+  mode: "console"       # console | file | both
+  file: "meshfest.log"  # file log custom name
+  
