@@ -64,22 +64,22 @@ venv\Scripts\activate
 
   Edit your configuration file config.yaml or CLI parameters depending on your setup.
   ```
-call: "30QXT1"
+call: "30ABC1"
 
 vara:
   host: "127.0.0.1"
   port: 8100
 
 mesh:
-  host: "192.168.1.25:4403"
-  channel_name: Familia
+  host: "192.168.1.20:4403"
+  channel_name: Friends
   ```
 
 ### Execution
 
 5. Run MeshFest Lite
 
-  Basic execution: `python meshfest-lite.py` or using CLI parameters: `python meshfest-lite.py --call 30QXT1 --host 127.0.0.1 --port 8100`
+  Basic execution: `python meshfest-lite.py` or using CLI parameters: `python meshfest-lite.py --call 30ABC1 --host 127.0.0.1 --port 8100`
 
 
 ### ⚙️ Optional: Run as a service (Linux / Raspberry Pi)
