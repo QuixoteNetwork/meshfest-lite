@@ -2,7 +2,7 @@
 # MesHFest (Meshtastic-to-HF communication bridge)
 ## Index
 
-[Application Summary](#application-summary) • [Architecture Diagram](#-architecture-diagram-hf--mesh-hybrid-model) • [Syntax & Examples](#syntax--examples) • [Example Configurations](#-example-configurations) • [Installation & Execution](#-installation-and-execution-guide)
+[Application Summary](#application-summary) • [Architecture Diagram](#-architecture-diagram-hf--mesh-hybrid-model) • [Installation & Execution](#-installation-and-execution-guide) • [Syntax & Examples](#syntax--examples) • [Example Configurations](#-example-configurations) 
 
 ---
 
