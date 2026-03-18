@@ -31,7 +31,20 @@ If you like this work:
 
 ---
 
+
 ## 🔧 Installation and Execution Guide
+
+### 📁 Project Structure
+
+```bash
+meshfest-lite/
+│
+├── meshfest-lite.py     # Main application (single-file core)
+├── requirements.txt     # Python dependencies
+├── README.md            # Project documentation
+└── config.yaml          # User configuration (optional)
+```
+
 
 ### Installation
 Windows / Linux / MacOS:
