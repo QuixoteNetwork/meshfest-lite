@@ -1,4 +1,5 @@
-![meshfest-lite-v1](https://github.com/user-attachments/assets/47a2aec6-0193-45ea-89e2-839fcbd40c36)
+![meshfest-lite](https://github.com/user-attachments/assets/e66bdbaf-f8ff-4f4a-8fc5-38cd211450da)
+
 # MesHFest (Meshtastic-to-HF communication bridge)
 ## Index
 
