@@ -91,9 +91,11 @@ mesh:
 
 ### Execution
 
-5. Run MeshFest Lite
+5. Run MeshFest-Lite:
 
-  Basic execution: `python meshfest-lite.py` or using CLI parameters: `python meshfest-lite.py --call 30ABC1 --host 127.0.0.1 --port 8100`
+  Basic execution reading config file:  `python meshfest-lite.py --config config.yaml` 
+  
+  or using CLI parameters (if config file exists override these parameters): `python meshfest-lite.py --call 30ABC1 --host 127.0.0.1 --port 8100`
 
 
 ### ⚙️ Optional: Run as a service (Linux / Raspberry Pi)
